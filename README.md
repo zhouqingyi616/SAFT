@@ -15,7 +15,8 @@ All results in the paper were obtained with my personal laptop, equipped with
 ## Requirements
 All codes contained in this repository are written with CUDA C++.  
 
-I'm using Visual Studio 2019. 
+I'm using Visual Studio 2019, since I prefer working with Windows system.  
+I've also tested compiling the source code using `nvcc` on Ubuntu, which should also work. 
 
 Special requirements: 
 - [CUDA](https://developer.nvidia.com/cuda-downloads): I've included CUDA 10.1 into "Build dependencies", but a slightly older version should also work. 
