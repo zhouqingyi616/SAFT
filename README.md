@@ -24,9 +24,10 @@ Special requirements:
 ## Results
 Here are some of the results shown in the paper. Please refer to the paper for more details. 
 ### Examples
-<img src="figures/violin.png" width = "200" height = "140"  />
+<img src="/figures/violin.png" width = "200" height = "140"  />
+
 ### Speed & scalability
-<img src="figures/scale.png" width = "200" height = "140"  />
+<img src="/figures/scale.png" width = "200" height = "140"  />
 
 ## Cite
     @article{zhou2022saft,
