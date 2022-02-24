@@ -24,9 +24,9 @@ Special requirements:
 ## Results
 Here are some of the results shown in the paper. Please refer to the paper for more details. 
 ### Examples
-![Violin](/figures/violin.png?raw=true)
+<img src="figures/violin.png" width = "200" height = "140"  />
 ### Speed & scalability
-![Scalability](/figures/scale.png?raw=true)
+<img src="figures/scale.png" width = "200" height = "140"  />
 
 ## Cite
     @article{zhou2022saft,
