@@ -25,12 +25,12 @@ Special requirements:
 Here are some of the results shown in the paper. Please refer to the paper for more details. 
 ### Example: violin
 "Violin" case in paper (see section 3.1 for details). (a) without Laplacian smoothing. (b) With Laplacian smoothing. 
-![Violin](violin.PNG?raw=true)
+![Violin](figures/violin.PNG?raw=true)
 
 ### Speed & scalability
 Using one single Geforce RTX2060 GPU, we are able to generate 233k elements per second. 
 The figure shows scalability: for given problem size, how the time consumption changes when increasing number of threads. 
-![Scalability](scale.PNG?raw=true)
+![Scalability](figures/scale.PNG?raw=true)
 
 ## Cite
     @article{zhou2022saft,
