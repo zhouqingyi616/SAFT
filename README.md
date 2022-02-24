@@ -5,7 +5,7 @@ SAFT is a **front-based** parallel advancing front algorithm that runs on **sing
 
 Right now our implementation only supports **2D triangular mesh**. However by modifying the rules utilized when generating new elements, SAFT can be readily applied to non-triangular mesh / 3D mesh. 
 
-This work has been done under the supervision of Prof. Zongfu Yu, as well as Prof. Qiqi Wang. 
+This work has been done under the supervision of Prof. Zongfu Yu, as well as Prof. Qiqi Wang. Thanks a lot for their help! 
 
 ## Device
 All results in the paper were obtained with my personal laptop, equipped with
@@ -26,14 +26,16 @@ Special requirements:
 ## Results
 Here are some of the results shown in the paper. Please refer to the paper for more details. 
 ### Example: violin
-"Violin" case in paper (see section 3.1 for details). (a) without Laplacian smoothing. (b) With Laplacian smoothing. 
+"Violin" case in paper (see section 3.1 for details). Please refer to our paper for a high-resolution image.   
+
+(a) without Laplacian smoothing. (b) With Laplacian smoothing. 
 
 ![Violin](figures/violin.PNG?raw=true)
 
 ### Speed & scalability
 Using one single Geforce RTX2060 GPU, we are able to generate a 2D mesh containing 72.6M elements in less than 7 minutes.  
 
-For smaller cases, a generation speed of 233k elements per second can be achieved.  
+For smaller cases, a generation speed of 233k elements per second can be achieved with 3072 threads.  
 
 The following figure shows scalability: for given problem size, how the time consumption changes when increasing number of threads. Note that using too many threads does not necessarily lead to significant improvement (see section 3.3 for detailed discussion). 
 
