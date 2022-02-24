@@ -24,9 +24,9 @@ Special requirements:
 ## Results
 Here are some of the results shown in the paper. Please refer to the paper for more details. 
 ### Examples
-![Violin](/figures/violin.pdf "Violin")
+![Violin](/figures/violin.png "Violin")
 ### Speed & scalability
-![Scalability](/figures/scale.pdf "Scalability")
+![Scalability](/figures/scale.png "Scalability")
 
 ## Cite
     @article{zhou2022saft,
