@@ -16,6 +16,7 @@ All results in the paper were obtained with my personal laptop, equipped with
 All codes contained in this repository are written with CUDA C++.  
 
 I'm using Visual Studio 2019, since I prefer working with Windows system.  
+
 I've also tested compiling the source code using `nvcc` on Ubuntu, which should also work. 
 
 Special requirements: 
@@ -31,6 +32,7 @@ Here are some of the results shown in the paper. Please refer to the paper for m
 
 ### Speed & scalability
 Using one single Geforce RTX2060 GPU, we are able to generate a 2D mesh containing 72.6M elements in less than 7 minutes.  
+
 For smaller cases, a generation speed of 233k elements per second can be achieved.  
 
 The following figure shows scalability: for given problem size, how the time consumption changes when increasing number of threads. Note that using too many threads does not necessarily lead to significant improvement (see section 3.3 for detailed discussion). 
