@@ -43,6 +43,12 @@ The following figure shows scalability: for given problem size, how the time con
 
 ![Scalability](figures/scale.PNG?raw=true)
 
+## Files included
+
+## How to modify
+
+## Contact
+
 ## Cite
     @article{zhou2022saft,
       title={SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU},
