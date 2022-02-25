@@ -1,9 +1,9 @@
 # SAFT: shotgun advancing front technique
-Code for paper "SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU".  
+Code for paper ***"SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU"***.  
   
-SAFT is a **front-based** parallel advancing front algorithm that runs on **single GPU**. 
+***SAFT*** is a **front-based** parallel advancing front algorithm that runs on **single GPU**. 
 
-Right now our implementation only supports **2D triangular mesh**. However by modifying the rules utilized when generating new elements, SAFT can be readily applied to non-triangular mesh / 3D mesh. 
+Right now our implementation only includes **2D triangular mesh**. However by modifying the rules utilized when generating new elements, SAFT can be readily applied to non-triangular mesh / 3D mesh, so long as you're following the advancing front framework. 
 
 This work has been done under the supervision of Prof. Zongfu Yu, as well as Prof. Qiqi Wang. Thanks a lot for their help! 
 
@@ -17,7 +17,7 @@ All codes contained in this repository are written with CUDA C++.
 
 I'm using Visual Studio 2019, since I prefer working with Windows system.  
 
-I've also tested compiling the source code using `nvcc` on Ubuntu, which should also work. 
+I've also tested compiling the source code using `nvcc` on Ubuntu, which also works well. 
 
 Special requirements: 
 - [CUDA](https://developer.nvidia.com/cuda-downloads): I've included CUDA 10.1 into "Build dependencies", but a slightly older version should also work. 
