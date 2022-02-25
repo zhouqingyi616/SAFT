@@ -32,6 +32,8 @@ Here are some of the results shown in the paper. Please refer to the paper for m
 
 ![Violin](figures/violin.PNG?raw=true)
 
+Note that the script used to visualize the above mesh is written in Python (relies on matplotlib), and is not included in this repository. 
+
 ### Speed & scalability
 Using one single Geforce RTX2060 GPU, we are able to generate a 2D mesh containing 72.6M elements in less than 7 minutes.  
 
