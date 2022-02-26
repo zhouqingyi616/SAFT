@@ -44,16 +44,30 @@ The following figure shows scalability: for given problem size, how the time con
 ![Scalability](figures/scale.PNG?raw=true)
 
 ## Files included
+- util_class.h
+- shape_def.h
+- util_func_CUDA.h
+- util_func.h
+- main.cu
 
 ## How to modify
+If you'd like to modify the code to mesh some arbitrary 2D domain, here are the steps:
+- Turn the domain boundary into a vector of faces. Be aware of the normal vector direction! 
+- Define the element size distribution by modifying "cuda_elem_size()" function.
+- Choose the number of threads based on your problem size. As a starting point, it would be good to make sure the code runs correctly with a few threads. 
 
 ## Contact
+In case you're interested in obtaining supplementary data or code not included here, you can contact me through e-mail: <qzhou75@wisc.edu>  
+
+I'm always open to discussion, and will try my best to reply to received e-mails. 
 
 ## Cite
+If you find the SAFT code provided here interesting and useful, please consider to cite our paper:
+
     @article{zhou2022saft,
       title={SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU},
       author={Zhou, Qingyi and Wang, Qiqi and Yu, Zongfu},
-      journal={XXX},
+      journal={XXXX},
       year={2022}
     }
   
