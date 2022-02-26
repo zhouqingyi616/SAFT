@@ -267,7 +267,10 @@ __global__ void gpu_intersect(face* s1_result, face* s2_result, int n, int N, in
 			face id_y_s2 = s2_result[id_y];
 
 			// Distance threshold between two bounding boxes
-			float bbox_diff = 0.5 * default_elem_size;
+			float id_x_size = 0.5 * (id_x_s1.Area + id_x_s2.Area);
+			float id_y_size = 0.5 * (id_y_s1.Area + id_y_s2.Area);
+
+			float bbox_diff = 0.5 * 0.5 * (id_x_size + id_y_size);
 
 			// The bounding box of element id_x
 			float id_x_xs = min(id_x_s1.bb_xs, id_x_s2.bb_xs);
