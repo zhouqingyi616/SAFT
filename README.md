@@ -62,7 +62,7 @@ In case you're interested in obtaining supplementary data or code not included h
 I'm always open to discussion, and will try my best to reply to received e-mails. 
 
 ## Cite
-If you find the SAFT code provided here interesting and useful, please consider to cite our paper:
+If you find the SAFT code provided here interesting and useful, please consider citing our paper:
 
     @article{zhou2022saft,
       title={SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU},
