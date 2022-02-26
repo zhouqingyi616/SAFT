@@ -44,16 +44,16 @@ The following figure shows scalability: for given problem size, how the time con
 ![Scalability](figures/scale.PNG?raw=true)
 
 ## Files included
-- util_class.h
-- shape_def.h
-- util_func_CUDA.h
-- util_func.h
-- main.cu
+- **util_class.h**: defines important classes, including `vertex`, `face`, `QuadTree` and so on. 
+- **shape_def.h**: defines the geometry as well as initial boundary of "ring" case. 
+- **util_func_CUDA.h**: defines auxiliary functions that run on GPU. These lightweight functions will be called very often during mesh generation. 
+- **util_func.h**: defines auxiliary functions (including visualization) that run on CPU. 
+- **main.cu**: defines the `main()` function, as well as "find new elements" step and "calculate intersection" step. 
 
 ## How to modify
 If you'd like to modify the code to mesh some arbitrary 2D domain, here are the steps:
 - Turn the domain boundary into a vector of faces. Be aware of the normal vector direction! 
-- Define the element size distribution by modifying "cuda_elem_size()" function.
+- Define the element size distribution by modifying `cuda_elem_size()` function.
 - Choose the number of threads based on your problem size. As a starting point, it would be good to make sure the code runs correctly with a few threads. 
 
 ## Contact
