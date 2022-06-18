@@ -1,5 +1,5 @@
 # SAFT: shotgun advancing front technique
-Code for paper ***"SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU"***.  
+Code for paper ***"SAFT: shotgun advancing front technique for massively parallel mesh generation on graphics processing unit"***. Our paper has been accepted by ***International Journal for Numerical Methods in Engineering***. You can download it from [here](https://doi.org/10.1002/nme.7038).
   
 ***SAFT*** is a **front-based** parallel advancing front algorithm that runs on **single GPU**. 
 
@@ -64,10 +64,10 @@ I'm always open to discussion, and will try my best to reply to received e-mails
 ## Cite
 If you find the SAFT code provided here interesting and useful, please consider citing our paper:
 
-    @article{zhou2022saft,
-      title={SAFT: shotgun advancing front technique for massively parallel mesh generation on GPU},
+    @article{zhousaft,
+      title={SAFT: shotgun advancing front technique for massively parallel mesh generation on graphics processing unit},
       author={Zhou, Qingyi and Wang, Qiqi and Yu, Zongfu},
-      journal={XXXX},
+      journal={International Journal for Numerical Methods in Engineering},
       year={2022}
     }
   
