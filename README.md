@@ -63,11 +63,12 @@ I'm always open to discussion, and will try my best to reply to received e-mails
 
 ## Cite
 If you find the SAFT code provided here interesting and useful, please consider citing our paper:
-
+    
     @article{zhousaft,
-      title={SAFT: shotgun advancing front technique for massively parallel mesh generation on graphics processing unit},
-      author={Zhou, Qingyi and Wang, Qiqi and Yu, Zongfu},
-      journal={International Journal for Numerical Methods in Engineering},
-      year={2022}
+    title={SAFT: shotgun advancing front technique for massively parallel mesh generation on graphics processing unit},
+    author={Zhou, Qingyi and Wang, Qiqi and Yu, Zongfu},
+    journal={International Journal for Numerical Methods in Engineering},
+    publisher={Wiley Online Library}
+    year={2022}
     }
   
